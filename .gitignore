@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+tfplan
+crash.log
+*.tfvars
+!*.tfvars.example
+# A module does not version its lock file: the live repository does.
+.terraform.lock.hcl
+
+# Secrets
+.env
+*.pem
+*.key
